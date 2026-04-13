@@ -1,14 +1,18 @@
-
 {
- "name":"road-map",
- "private":true,
- "type":"module",
- "scripts":{"dev":"vite"},
- "dependencies":{
-  "react":"^18.2.0",
-  "react-dom":"^18.2.0",
-  "leaflet":"^1.9.4",
-  "react-leaflet":"^4.2.1"
+ "name": "road-map",
+ "private": true,
+ "type": "module",
+ "scripts": {
+  "dev": "vite"
  },
- "devDependencies":{"vite":"^5.0.0"}
+ "dependencies": {
+  "firebase": "^12.12.0",
+  "leaflet": "^1.9.4",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-leaflet": "^4.2.1"
+ },
+ "devDependencies": {
+  "vite": "^5.0.0"
+ }
 }
